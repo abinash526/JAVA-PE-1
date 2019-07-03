@@ -9,8 +9,8 @@ Input: 12345
 Output: 12345 is not palindrome
 Input: 12345654321
 Output : 12345654321 is palindrome and sum of even numbers is less than 25*/
-import java.util.Scanner;
-public class PallindromeCheck {
+
+public class PallindromeChecker {
     public String pallindromeCheck(int input)
     {
 
@@ -19,12 +19,15 @@ public class PallindromeCheck {
         StringBuffer num2=new StringBuffer();
         num2.append(num1);
         num2=num2.reverse();
+        //String is converted to Number
         int revNum=Integer.parseInt(num2.toString());
+        //Original Number String is also converted to number
         int orNum=Integer.parseInt(num1.toString());
         if(revNum==orNum)
         {
 
             int sum=0;
+            //Sum of even number is done inside the loop
             while(revNum!=0)
             {
                 if((revNum%10)%2==0)

@@ -1,7 +1,8 @@
 package com.stackroute.p1;
 
+
 import java.util.Scanner;
-public class AddNum {
+public class NumberAdder {
     public String addNum(String input)
     {
 

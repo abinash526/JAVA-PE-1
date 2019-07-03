@@ -1,16 +1,16 @@
-package com.stackroute.p1;
 
+package com.stackroute.p1;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class SortNumberTest {
-    SortNumber ob;
+public class SortNumberTester {
+    DigitSorter ob;
     @Before
     public void setUp() throws Exception {
-    ob=new SortNumber();
+    ob=new DigitSorter();
     }
 
     @After

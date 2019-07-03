@@ -8,10 +8,10 @@ import static org.junit.Assert.*;
 
 public class PallindromeCheckTest {
 
-    PallindromeCheck ob;
+    PallindromeChecker ob;
     @Before
     public void setUp() throws Exception {
-        ob=new PallindromeCheck();
+        ob=new PallindromeChecker();
     }
 
     @After

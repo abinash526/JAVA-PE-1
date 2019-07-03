@@ -7,11 +7,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class RepeatNumbersTest {
-    RepeatNumbers ob;
+    NumberRepeater ob;
 
     @Before
     public void setUp() throws Exception {
-    ob=new RepeatNumbers();
+    ob=new NumberRepeater();
     }
 
     @After

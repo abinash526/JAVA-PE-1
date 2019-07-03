@@ -6,12 +6,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CharCheckTest {
+public class CharCheckerTest {
 
-    CharCheck ob;
+    CharChecker ob;
     @Before
     public void setUp() throws Exception {
-        ob=new CharCheck();
+        ob=new CharChecker();
     }
 
     @After

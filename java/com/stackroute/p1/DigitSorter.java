@@ -1,4 +1,4 @@
-package com.stackroute.p1;/*PROBLEM STATEMENT
+/*PROBLEM STATEMENT
 * 7. Write a program which accepts a number as input from user and perform the following:
 a. sort the number in non-increasing order
 b. after sorting sum all the even numbers, the sum should be greater than 15 .
@@ -7,13 +7,15 @@ Input : 234534
 Output : Sorted number in non-increasing order : 544332
 Sum of even numbers : 10
 False*/
-import java.util.Scanner;
 
-public class SortNumber {
+//import java.util.Scanner;
+package com.stackroute.p1;
+public class DigitSorter {
     public String sortNumber(int input)
     {
         String numStr=Integer.toString(input);
         String output="";
+        //Sring is changed to Character Array
         char[] arrnum=numStr.toCharArray();
         for(int i=0;i<arrnum.length;i++){
             for(int j=0;j<arrnum.length;j++)//Sorting is done here

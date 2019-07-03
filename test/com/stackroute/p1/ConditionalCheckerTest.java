@@ -6,12 +6,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ConditionalCheckTest {
-    ConditionalCheck ob;
+public class ConditionalCheckerTest {
+    ConditionalChecker ob;
 
     @Before
     public void setUp() throws Exception {
-        ob=new ConditionalCheck();
+        ob=new ConditionalChecker();
     }
 
     @After

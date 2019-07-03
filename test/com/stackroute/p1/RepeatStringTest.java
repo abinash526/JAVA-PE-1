@@ -7,10 +7,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class RepeatStringTest {
-RepeatString ob;
+StringRepeater ob;
     @Before
     public void setUp() throws Exception {
-        ob=new RepeatString();
+        ob=new StringRepeater();
     }
 
     @After

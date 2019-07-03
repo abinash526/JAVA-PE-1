@@ -4,12 +4,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class StrReverseTest {
+public class StrReverserTest {
 
-    StrReverse ob;
+    StrReverser ob;
     @org.junit.Before
     public void setUp() throws Exception {
-        ob=new StrReverse();
+        ob=new StrReverser();
     }
 
     @org.junit.After

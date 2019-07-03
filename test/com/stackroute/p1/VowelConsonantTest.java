@@ -7,11 +7,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class VowelConsonantTest {
-    VowelConsonant ob;
+    VowelConsonantIdentifier ob;
 
     @Before
     public void setUp() throws Exception {
-        ob=new VowelConsonant();
+        ob=new VowelConsonantIdentifier();
     }
 
     @After
